@@ -1,0 +1,48 @@
+@import url(../../../../dist/css/variables.css);
+
+section {
+  width: 100%;
+  min-height: 250px;
+
+  background: var(--secondary-background-color);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+
+  margin-top: 20px;
+}
+
+ul {
+  padding: 20px;
+}
+ul li {
+  display: flex;
+  justify-content: center;
+  background-position: center 30px;
+}
+
+#box {
+    width: 5%;
+    text-decoration: line-through;
+}
+
+#text{
+    width: 80%;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+    color: var(--primary-text-color);
+}
+
+button{
+    width: 5%;
+    background: none;
+    border: none;
+}
+ .loading{
+  background-image: url("../../../../assest/icon/empty.jpg");
+  background-repeat: no-repeat;
+  background-position: center 30px;
+ }
+
+ .checked{
+  text-decoration: line-through;
+ }
